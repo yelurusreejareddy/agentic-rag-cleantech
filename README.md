@@ -5,8 +5,8 @@ comparing a Base agent against an Extended agent with additional tools.
 
 ## Files Included
 
-- Sreejareddyyeluru_finalproject.ipynb - end-to-end notebook with both agents
-- Finalprojectreport.pdf - full project report
+- agentic_rag_pipeline.ipynb - end-to-end notebook with both agents
+- project_report.pdf - full project report
 - cleantech_rag_evaluation_data_2024-09-20.csv - 23-question evaluation set
 - CleanTech-50answers.txt - 50-question extended evaluation set
 - part1_agent_answers.csv - Base agent outputs
