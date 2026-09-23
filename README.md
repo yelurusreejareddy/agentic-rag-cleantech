@@ -11,7 +11,7 @@ comparing a Base agent against an Extended agent with additional tools.
 - CleanTech-50answers.txt - 50-question extended evaluation set
 - part1_agent_answers.csv - Base agent outputs
 - part2_advanced_results.csv - Extended agent outputs
-- Final_Part3_Evaluation.csv - BLEU, ROUGE, BERTScore comparison results
+- Final_Part3_Evaluation.csv - retrieval and answer quality results (precision and recall at k, reciprocal rank, latency, LLM judge scores)
 
 Note: Main dataset (Cleantech Media Dataset by Anacode, 101MB) not included due to size.
 
@@ -20,7 +20,7 @@ Note: Main dataset (Cleantech Media Dataset by Anacode, 101MB) not included due 
 - ChromaDB vector store with MiniLM embeddings for document retrieval
 - Base agent - retriever tool + summarizer tool
 - Extended agent - adds Semantic Scholar paper search + chain-of-thought reasoning
-- Evaluation using BLEU, ROUGE, and BERTScore
+- Evaluation using ROUGE-L and BERTScore
 
 ## Libraries
 
